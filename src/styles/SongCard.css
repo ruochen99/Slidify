@@ -1,0 +1,26 @@
+.song-card {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: #264f73;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.song-number {
+  font-size: 18px;
+  color: #737373;
+}
+
+.song-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #737373;
+  margin-left: 16px;
+}
+
+.artist {
+  font-size: 18px;
+  color: #737373;
+  margin-right: 16px;
+}

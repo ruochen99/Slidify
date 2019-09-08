@@ -1,0 +1,42 @@
+.bar-container {
+  background-color: #e7e6e5;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  left:0;
+  bottom: 0;
+  height: 120px;
+  width: 100%;
+}
+
+.playback-container {
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  margin-top: 16px;
+  height: 10px;
+  width: 600px;
+}
+
+.volume-bar-container {
+  grid-column-start: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
